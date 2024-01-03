@@ -1,0 +1,266 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; 
+    color: #333333; 
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/bg_patternn.png);
+    
+}
+
+header {
+    background-color: #aedfad; 
+    padding: 20px;
+    text-align: center;
+    background-image: url(../images/banner\ final\ \(2\).png);
+
+}
+
+.logo {
+    display: block;
+    max-width: 150px;
+    height: auto; 
+    cursor: pointer;
+    background-image: url(../images/logo_nobg.png); /*this is for the logo to be responsive and when clicked, it goes to home page*/
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+header h1 {
+    color: #2e3d49; 
+    margin: 0;
+}
+
+header p {
+    color: #2e3d49; 
+}
+
+nav {
+    background-color: #aedfad; 
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333333;
+    transition: color 0.2s ease;
+}
+
+nav a:hover{
+    color:rgb(25, 221, 25)
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(5, 247, 5);
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+main {
+    padding: 20px;
+}
+
+.main2{
+    text-align: center;
+}
+
+.main3 {
+    text-align: center;
+}
+
+.main4 {
+    align-items: center;
+    text-align: center;
+}
+
+.forest{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    border-radius: 200px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    width: 100%;
+}
+
+.flex-item {
+    flex: 1;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.flex-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-item {
+    width: 400px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.depmap{
+    width: 70%;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.image-frame {
+    border: 7px solid #333;
+    padding: 5px;
+    display: inline-block;
+}
+
+.rounded-corners {
+    border-radius: 5px; /* Adjust the border-radius for rounded corners */
+}
+
+.forest1{
+    width: 80%;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    border-radius: 200px;
+}
+
+
+footer {
+    background-color: #aedfad;
+    padding: 15px;
+    text-align: center;
+    background-image: url(../images/footer_pic1.png); /*footer design*/
+}
+
+.venue-description p {
+    margin-bottom: 15px;
+}
+
+.threat-info {
+    margin-top: 15px;
+}
+
+.conservation-link {
+    color: #009900;
+    text-decoration: none;
+}
+
+.conservation-link:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.forest2 {
+    width: 50%;
+    height: 50vh;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+.main5{
+    text-align: center;
+}
+
+.ul5 {
+    list-style-position: inside;
+    text-align: center;
+}
+
+.li5 {
+    text-align: center; 
+}
+
+footer p {
+    margin: 5px;
+}
